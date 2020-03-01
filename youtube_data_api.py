@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 import json
 
-#ALL LIKED VIDEOS FROM MY YOUTUBE CHANNEL
+# ALL LIKED VIDEOS FROM MY YOUTUBE CHANNEL
 
 CLIENT_SECRET_FILE = 'client_secret.json'
 SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
